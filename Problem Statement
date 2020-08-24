@@ -1,0 +1,15 @@
+QUESTION
+SUPER PRIME NUMBERS-Positive integers whose decimal representation contains all the single digit prime numbers at least once.
+Now find how many super prime numbers are present between the range (l,r).
+
+Input Format
+T(Number of testcases)
+T lines follow with l,r as an input
+
+Constraints
+1<=T<=2*10^4
+1<=L<=R<=10^18
+
+SOLUTION
+As it is clear from the connstrains we cannot use bruteforce here.Neither recursion will be effective as we have to calculate many testcases.So we will use an effective form
+of recursion and store their results to avoid recalculation of these states so called digit dp.So lets get our hands dirty on code.
